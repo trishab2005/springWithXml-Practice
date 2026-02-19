@@ -12,9 +12,9 @@
     </bean>
 
     <bean id="pr" class="com.example.Person">
-        <property name="name" value="Trishu"/>
-        <property name="age" value="18 "/>
-        <property name="address" ref="adr"/>
+        <constructor-arg name="name" value="Trishu"/>
+        <constructor-arg name="age" value="18"/>
+        <constructor-arg name="address" ref="adr"/>
     </bean>
 
 </beans>
